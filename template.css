@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+
+body {
+	margin: 0 auto;
+	font: 20px 'Droid Serif';
+	font-weight: 400;
+	color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 30px;
+}
