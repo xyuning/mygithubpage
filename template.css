@@ -16,9 +16,58 @@ h1 {
 }
 
 header {
-	background-color: #109d96;
+	background-color: #ffab00;
 	position: fixed;
 	width: 100%;
 	z-index: 2;
 	height: 86px;
 }
+
+div#header-title {
+	padding: 30px;
+	display: inline-block;
+	float: left;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+}
+
+div#header-title a:link, div#header-title a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+div#header-title a:hover {
+	color: #ff6500;
+	text-decoration: none;
+}
+
+nav {
+	padding: 30px;
+	display: inline-block;
+	float: right;
+}
+
+nav a:link, a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #ff6500;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ffffff;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
