@@ -85,15 +85,19 @@ section#welcome {
 	background-image: url(images/welcome.jpg);
 	background-position: center;
 	position: relative;
+	background-size: 100%;
+	background-position: center;
 }
 
 div#welcome-text {
 	position: absolute;
 	top: 35%;
 	left: 18%;
-	color: black;
-	font-weight: 300;
+	color: #ffffff;
+	font-weight: bold;
 	font-size: 40px;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #000000;
 }
 
 section.about-section {
@@ -142,4 +146,35 @@ div.item-text {
 img.circle {
 	border-radius: 100%;
 	height: 150px;
+}
+
+/*portfolio*/
+section#portfolio {
+	padding: 30px;
+}
+
+div.table {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+div.table-row {
+	display: table-row;
+}
+
+div.table-cell {
+	display: table-cell;
+	padding: 10px;
+}
+
+img.medium-rounded {
+	border-radius: 2em;
+	width: 200px;
+	height: 200px;
+}
+
+img.medium-rounded:hover {
+	opacity: 0.5;
 }
