@@ -90,11 +90,10 @@ section#welcome {
 div#welcome-text {
 	position: absolute;
 	top: 35%;
-	left: 7%;
-	color: #ffffff;
+	left: 18%;
+	color: black;
 	font-weight: 300;
 	font-size: 40px;
-	text-shadow: 2px 2px 2px #000000;
 }
 
 section.about-section {
@@ -108,7 +107,6 @@ section.about-section h1 {
 
 section.fun-section {
 	width: 100%;
-	padding: 30px 0 30px 0;
 	background-color: #a52a3f;
 }
 
@@ -122,14 +120,13 @@ div.three-items {
 	width: 100%;
 }
 
+div.item-paddings {
+	padding: 30px;
+}
+
 div.an-item {
 	display: inline-block;
 	width: 33%;
-}
-
-div.extra-item-padding {
-	padding-left: 30px;
-	padding-top: 30px;
 }
 
 div.item-content {
