@@ -178,3 +178,9 @@ img.medium-rounded {
 img.medium-rounded:hover {
 	opacity: 0.5;
 }
+
+footer {
+	border-top: 1px solid #5D413D;
+	padding: 30px;
+	color: #5D413D;
+}
